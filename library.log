@@ -1,0 +1,14 @@
+Jul 02, 2025 8:00:00 PM book.BookInventory addBook
+INFO: Book added: 1984 by George Orwell
+Jul 02, 2025 8:00:00 PM book.BookInventory addBook
+INFO: Book added: Animal Farm by George Orwell
+Jul 02, 2025 8:00:01 PM lending.LendingService checkoutBook
+INFO: Book 123 checked out to Alice
+Jul 02, 2025 8:00:02 PM lending.LendingService returnBook
+INFO: Book 123 returned by Alice
+Jul 02, 2025 8:00:03 PM lending.LendingService checkoutBook
+WARNING: Attempt to checkout non-existing or unavailable book: 999 by Alice
+Jul 02, 2025 8:00:04 PM lending.LendingService processReservations
+INFO: Reservation fulfilled for Alice - Book ISBN: 124
+Jul 02, 2025 8:00:05 PM notification.NotificationService notifyObservers
+INFO: Notifying observers: Book 'Animal Farm' is now available!

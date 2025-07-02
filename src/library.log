@@ -1,0 +1,16 @@
+Jul 03, 2025 3:13:53 AM lending.LendingService checkoutBook
+INFO: Alice checked out 123
+Jul 03, 2025 3:13:54 AM lending.LendingService returnBook
+INFO: Alice returned 123
+Jul 03, 2025 3:13:54 AM lending.LendingService checkoutBook
+WARNING: Checkout failed for 999 by Alice
+Jul 03, 2025 3:13:54 AM lending.LendingService checkoutBook
+INFO: Alice checked out 124
+Jul 03, 2025 3:14:15 AM lending.LendingService checkoutBook
+INFO: Alice checked out 123
+Jul 03, 2025 3:14:15 AM lending.LendingService returnBook
+INFO: Alice returned 123
+Jul 03, 2025 3:14:15 AM lending.LendingService checkoutBook
+WARNING: Checkout failed for 999 by Alice
+Jul 03, 2025 3:14:15 AM lending.LendingService checkoutBook
+INFO: Alice checked out 124
